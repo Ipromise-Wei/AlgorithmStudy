@@ -7,6 +7,7 @@ arr: list[int] = [0] * 5        #[0, 0, 0, 0, 0]
 nums: list[int] = [1, 2, 3, 4, 5]       #[1, 2, 3, 4, 5]
 i = [11, 21, 31, 41]
 
+
 # 2.访问数组元素
 def random_access(nums: list[int]) -> int:
     '''随机访问元素'''
