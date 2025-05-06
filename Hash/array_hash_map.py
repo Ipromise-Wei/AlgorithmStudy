@@ -39,7 +39,7 @@ class ArrayHashMap:
         index: int = self.hash_func(key)
         # 置为None，代表删除
         self.buckets[index] = None
-        
+         
     def entry_set(self) -> list[Pair]:
         '''获取所有键值对'''
         result: list[Pair] = []
